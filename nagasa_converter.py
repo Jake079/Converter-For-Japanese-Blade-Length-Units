@@ -23,7 +23,8 @@ BU = "分(Bu)"
 def nagasa_convert_to_shaku():
     """
     刀の長さを入力させ、和式の単位に換算する
-    \nPrompts user for blade length in cm and converts it to traditional Japanese unit.
+    
+    Prompts user for blade length in cm and converts it to traditional Japanese unit.
 
     """
     nagasa_input_value_cm = input(f"\n刀の長さ Blade Length {SENCHI}: ")
@@ -41,8 +42,9 @@ def nagasa_convert_to_shaku():
 def nagasa_convert_to_cm():
     """
     和式単位の尺．寸．分は順に別々で入力させ、刀の長さ(センチ)に換算する。
-    \nPrompts user for blade length in traditional Japanese unit and converts it to cm.
-    \nMust enter 尺(Shaku), 寸(Sun), and 分(Bu) separately in order.
+    
+    Prompts user for blade length in traditional Japanese unit and converts it to cm.
+    Must enter 尺(Shaku), 寸(Sun), and 分(Bu) separately in order.
     """
     print(
         f"\n刀の長さを尺．寸．分の順に入力する\nEnter the blade length in the order of {SHAKU}, {SUN} and {BU}")
@@ -65,7 +67,8 @@ def nagasa_convert_to_cm():
 def choose_converter():
     """
     変換を選択させるか、終了させる。
-    \nPrompt user to choose between two conversion options or end the program.
+    
+    Prompt user to choose between two conversion options or end the program.
     """
     while True:
         converter_choice = input(

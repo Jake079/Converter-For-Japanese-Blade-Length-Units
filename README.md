@@ -12,5 +12,4 @@ Below are the traditional Japanese units most commonly used for measuring blade 
 For example, say you find a late Muromachi-period sword on a Japanese auction site marked “ニ尺三寸五分” (2 Shaku 3 Sun 5 Bu) on its NBTHK certificate (NBTHK stands for "Nihon Bijutsu Token Hozon Kyokai", or "Society for the Preservation of Japanese Art Swords"). You might want to know its length in centimeters. Or perhaps you already own another sword with a 71 cm blade and wish to compare. This tool provides quick and easy conversions for fellow Japanese sword collectors and enthusiasts.
 
 ![NBTHK nihonto certificate example](images/nihonto_example.jpg)
-
 *Photo courtesy of Samurai Museum Shop*  

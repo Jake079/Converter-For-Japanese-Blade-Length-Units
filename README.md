@@ -1,4 +1,4 @@
-# Converter-for-Nihonto-blade-length-units
+# Converter for Nihonto blade-length units
 
 A small CLI tool to convert traditional Japanese blade-length units to centimeters and vice versa. 
 Many nihonto (traditional katana) use old units like 尺 (Shaku), 寸 (Sun), and 分 (Bu), and converting them can be time-consuming.

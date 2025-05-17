@@ -20,7 +20,7 @@ SUN = "寸(Sun)"
 BU = "分(Bu)"
 
 # 単位の自動換算 Converter Function センチ(cm) → 尺(Shaku)
-def nagasa_convert_to_shaku():
+def nagasa_convert_to_shaku() -> None:
     """
     刀の長さを入力させ、和式の単位に換算する
     
@@ -34,12 +34,12 @@ def nagasa_convert_to_shaku():
         nagasa_sun, nagasa_sun_remain = divmod(
             nagasa_shaku_remain, JAPANESE_UNIT_SUN)
         nagasa_bu = nagasa_sun_remain / JAPANESE_UNIT_BU
-        print(f"\n{nagasa_input_value_cm}cm = {int(nagasa_shaku)}{SHAKU} {int(nagasa_sun)}{SUN} {nagasa_bu:.2f}{BU}")
+        print(f"\n〄 {nagasa_input_value_cm}cm = {int(nagasa_shaku)}{SHAKU} {int(nagasa_sun)}{SUN} {nagasa_bu:.2f}{BU}")
     except InvalidOperation:
         print("\n不正な数値 Please enter a valid number")
 
 # 単位の自動換算 Converter Function 尺(Shaku) → センチ(cm)
-def nagasa_convert_to_cm():
+def nagasa_convert_to_cm() -> None:
     """
     和式単位の尺．寸．分は順に別々で入力させ、刀の長さ(センチ)に換算する。
     
@@ -64,7 +64,7 @@ def nagasa_convert_to_cm():
         print("\n不正な数値 Please enter a valid number")
 
 # 換算を選ぶ Choose Converter Function
-def choose_converter():
+def choose_converter() -> None:
     """
     変換を選択させるか、終了させる。
     

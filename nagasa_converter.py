@@ -5,19 +5,19 @@ from decimal import Decimal, getcontext, InvalidOperation
 getcontext().prec = 28
 
 # 1尺(しゃく/Shaku) = 30.3022センチ(cm)
-JAPANESE_UNIT_SHAKU = Decimal('30.3022')
+JAPANESE_UNIT_SHAKU: Decimal = Decimal('30.3022')
 
 # 1寸(すん/Sun) = 3.03022センチ(cm)
-JAPANESE_UNIT_SUN = Decimal('3.03022')
+JAPANESE_UNIT_SUN: Decimal = Decimal('3.03022')
 
 # 1分(ぶ/Bu) = 0.303022センチ(cm)
-JAPANESE_UNIT_BU = Decimal('0.303022')
+JAPANESE_UNIT_BU: Decimal = Decimal('0.303022')
 
 # 単位 Constant Strings
-SENCHI = "センチ(cm)"
-SHAKU = "尺(Shaku)"
-SUN = "寸(Sun)"
-BU = "分(Bu)"
+SENCHI: str = "センチ(cm)"
+SHAKU: str = "尺(Shaku)"
+SUN: str = "寸(Sun)"
+BU: str = "分(Bu)"
 
 # 単位の自動換算 Converter Function センチ(cm) → 尺(Shaku)
 def nagasa_convert_to_shaku() -> None:
